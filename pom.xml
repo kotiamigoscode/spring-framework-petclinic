@@ -291,13 +291,7 @@
 
     </dependencies>
     
-    <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-44-218.ap-south-1.compute.internal-snapshots</name>
-        <url>http://15.207.84.98:8081/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
+   
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
@@ -560,5 +554,12 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
+     <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-44-218.ap-south-1.compute.internal-snapshots</name>
+        <url>http://15.207.84.98:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
