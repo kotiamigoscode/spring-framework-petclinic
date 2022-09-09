@@ -554,12 +554,6 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
-     <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-44-218.ap-south-1.compute.internal-snapshots</name>
-        <url>http://15.207.84.98:8081/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
+
 
 </project>
